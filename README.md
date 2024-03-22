@@ -7,4 +7,4 @@ Teen kurssilla **hirsipuu-pelin** , joka avautuu *omassa ikkunassa* .
 [vaatimusmaarittely](dokumentaatio/vaatimusmaarittely.md)
 
 
-[tuntiki](dokumentaatio/vaatimusmaarittely.md)
+[tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
