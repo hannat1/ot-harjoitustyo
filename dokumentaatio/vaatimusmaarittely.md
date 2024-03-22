@@ -12,7 +12,7 @@ Pelaaja voi aloittaa pelin. Peli generoi jonkin sanan (50 sanamahdollisuutta), j
 
 ### Pelaaminen
 Pelaaja syöttää jonkin kirjaimen. Jos kirjain on sanassa, tulee kaikki kyseiset kirjaimet näkyviin. Jos kirjain ei ole sanassa, hirttomies-kuvaan tulee yksi elementti lisää.
-Samaa kirjainta ei voi syöttää enempää kuin yhden kerran. Hirttomies kuvassa on 6 elementtiä. 6 kirjainta saa siis mennä väärin, ennen kuin pelaaja häviää. 
+Samaa kirjainta ei voi syöttää enempää kuin yhden kerran. Hirttomies kuvassa on 6 elementtiä. 
 
 ### Pelin päättyminen
 Jos pelaaja saa koko sanan arvattua ennen kuin hirttomies-kuva on valmis, pelaaja voittaa. Jos hirttomies on valmis ennen kuin sana on kokonaan arvattu, pelaaja häviää. 
