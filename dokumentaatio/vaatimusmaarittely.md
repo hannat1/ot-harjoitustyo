@@ -20,7 +20,7 @@ Jos pelaaja saa koko sanan arvattua ennen kuin hirttomies-kuva on valmis, pelaaj
 Pelaajalla saa siis mennä kuusi kirjainta väärin, ennen kuin pelaaja häviää. 
 
 ## Käyttöliittymäluonnos
-Peli aukeaa omassa ikkunassa. Pelin koostuu kolmesta eri näkymästä. 
+Peli aukeaa omassa ikkunassa. Peli koostuu kolmesta eri näkymästä. 
 
 ### Aloitusnäkymä
 Tähän näkymään peli aukeaa. Siinä pelaaja voi klikata "Aloita peli"
