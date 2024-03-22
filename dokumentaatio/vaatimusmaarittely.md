@@ -4,10 +4,6 @@
 
 Sovellus on hirsipuu-peli. Pelissä on yksi pelaaja, joka pyrkii arvaamaan annetun sanan syöttämällä kirjaimia yksi kerrallaan. 
 
-## Käyttäjät
-
-Pelissä on vain yksi käyttäjä. Sovellusta laajennettaessa voitaisiin lisätä hallinnoiva käyttäjä, joka voisi esimerkiksi lisätä omia sanoja peliin. 
-
 ## Toiminnallisuus
 
 ### Aloitus
