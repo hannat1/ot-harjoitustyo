@@ -2,6 +2,8 @@
 
 Teen kurssilla **hirsipuu-pelin** , joka avautuu *omassa ikkunassa* . 
 
+## Laskuharjoitukset
+
 [laskarit](laskarit)
 
 
