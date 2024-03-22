@@ -19,6 +19,19 @@ Samaa kirjainta ei voi syöttää enempää kuin yhden kerran. Hirttomies kuvass
 Jos pelaaja saa koko sanan arvattua ennen kuin hirttomies-kuva on valmis, pelaaja voittaa. Jos hirttomies on valmis ennen kuin sana on kokonaan arvattu, pelaaja häviää. 
 Pelaajalla saa siis mennä 6 kirjainta väärin, ennen kuin pelaaja häviää. 
 
+## Käyttöliittymäluonnos
+
+Peli aukeaa omassa ikkunassa. Pelin koostuu kolmesta eri näkymästä. 
+
+### Aloitusnäkymä
+Tähän näkymään peli aukeaa. Siinä pelaaja voi klikata "Aloita peli"
+
+### Pelinäkymä
+Pelinäkymässä pelataan itse peli
+
+### Lopetusnäkymä
+Tähän näkymään päädytään kun peli on voitettu tai hävitty. Tästä näkymästä pelin voi pelata uudelleen tai lopettaa pelaaminen. 
+
 
 ## Jatkokehitysideoita
 - Peliä voisi laajentaa niin, että pelaajalla on aikaraja. 
