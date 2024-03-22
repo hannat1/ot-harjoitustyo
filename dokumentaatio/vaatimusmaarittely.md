@@ -2,7 +2,7 @@
 
 ## Sovelluksen tarkoitus
 
-Sovellus on hirsipuu-peli. Pelissä on vain yksi pelaaja, joka pyrkii arvaamaan annetun sanan syöttämällä kirjaimia yksi kerrallaan. 
+Sovellus on hirsipuu-peli. Pelissä on yksi pelaaja, joka pyrkii arvaamaan annetun sanan syöttämällä kirjaimia yksi kerrallaan. 
 
 ## Käyttäjät
 
