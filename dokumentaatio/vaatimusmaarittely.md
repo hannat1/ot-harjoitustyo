@@ -13,14 +13,13 @@ Pelaaja aloittaa pelin. Peli generoi jonkin sanan, jonka pituus näkyy näytöll
 
 ### Pelaaminen
 Pelaaja syöttää jonkin kirjaimen. Jos kirjain on sanassa, tulee kaikki kyseiset kirjaimet näkyviin. Jos kirjain ei ole sanassa, hirttomies-kuvaan tulee yksi elementti lisää.
-Samaa kirjainta ei voi syöttää enempää kuin yhden kerran. Hirttomies kuvassa on 6 elementtiä. 
+Samaa kirjainta ei voi syöttää enempää kuin yhden kerran. Hirttomies kuvassa on kuusi elementtiä. 
 
 ### Pelin päättyminen
 Jos pelaaja saa koko sanan arvattua ennen kuin hirttomies-kuva on valmis, pelaaja voittaa. Jos hirttomies on valmis ennen kuin sana on kokonaan arvattu, pelaaja häviää. 
-Pelaajalla saa siis mennä 6 kirjainta väärin, ennen kuin pelaaja häviää. 
+Pelaajalla saa siis mennä kuusi kirjainta väärin, ennen kuin pelaaja häviää. 
 
 ## Käyttöliittymäluonnos
-
 Peli aukeaa omassa ikkunassa. Pelin koostuu kolmesta eri näkymästä. 
 
 ### Aloitusnäkymä
@@ -30,7 +29,7 @@ Tähän näkymään peli aukeaa. Siinä pelaaja voi klikata "Aloita peli"
 Pelinäkymässä pelataan itse peli. Tässä näkymässä on hirttomies-kuva, kirjaimet ja sanan pituus viivoina. 
 
 ### Lopetusnäkymä
-Tähän näkymään päädytään kun peli on voitettu tai hävitty. Tästä näkymästä pelin voi pelata uudelleen tai lopettaa pelaaminen. 
+Tähän näkymään päädytään kun peli on voitettu tai hävitty. Tästä näkymästä pelin voi pelata uudelleen tai lopettaa pelaamisen. 
 
 
 ## Jatkokehitysideoita
