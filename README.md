@@ -4,10 +4,10 @@ Teen kurssilla **hirsipuu-pelin** , joka avautuu *omassa ikkunassa* .
 
 ## Laskuharjoitukset
 
-[laskarit](laskarit)
+[Laskarit](laskarit)
 
 
 ## Dokumentaatio
-[vaatimusmaarittely](dokumentaatio/vaatimusmaarittely.md)
+[Vaatimusmaarittely](dokumentaatio/vaatimusmaarittely.md)
 
-[tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
+[Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
