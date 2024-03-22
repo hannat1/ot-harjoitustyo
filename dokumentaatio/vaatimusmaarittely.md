@@ -27,7 +27,7 @@ Peli aukeaa omassa ikkunassa. Pelin koostuu kolmesta eri näkymästä.
 Tähän näkymään peli aukeaa. Siinä pelaaja voi klikata "Aloita peli"
 
 ### Pelinäkymä
-Pelinäkymässä pelataan itse peli
+Pelinäkymässä pelataan itse peli. Tässä näkymässä on hirttomies-kuva, kirjaimet ja sanan pituus viivoina. 
 
 ### Lopetusnäkymä
 Tähän näkymään päädytään kun peli on voitettu tai hävitty. Tästä näkymästä pelin voi pelata uudelleen tai lopettaa pelaaminen. 
