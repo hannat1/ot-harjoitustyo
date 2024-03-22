@@ -19,7 +19,7 @@ Jos pelaaja saa koko sanan arvattua ennen kuin hirttomies-kuva on valmis, pelaaj
 Pelaajalla saa siis mennä 6 kirjainta väärin, ennen kuin pelaaja häviää. 
 
 ## Jatkokehitysideoita
-Peliä voisi laajentaa niin, että pelaajalla on aikaraja. 
+- Peliä voisi laajentaa niin, että pelaajalla on aikaraja. 
 Pelissä voisi olla mahdollisuus itse lisätä sanoja peliin. 
 Pelissä voisi olla mahdollisuus valita solo-pelin lisäksi duo-peli, jossa vuorotellen pelaajat valitsisivat toiselle pelaajalle sanan jota arvata. 
 Peliin voitaisiin myös lisätä hallinnoiva käyttäjä, joka voisi esimerkiksi muokata pelin sanavaihtoehtoja. 
