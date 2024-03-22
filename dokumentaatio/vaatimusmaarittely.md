@@ -26,5 +26,6 @@ Pelaajalla saa siis mennä 6 kirjainta väärin, ennen kuin pelaaja häviää.
 Peliä voisi laajentaa niin, että pelaajalla on aikaraja. 
 Pelissä voisi olla mahdollisuus itse lisätä sanoja peliin. 
 Pelissä voisi olla solo-pelin lisäksi duo-peli, jossa vuorotellen pelaajat valitsisivat toiselle pelaajalle sanan jota arvata. 
+Peliin voitaisiin myös lisätä hallinnoiva käyttäjä, joka voisi esimerkiksi muokata pelin sanavaihtoehtoja. 
 
 
