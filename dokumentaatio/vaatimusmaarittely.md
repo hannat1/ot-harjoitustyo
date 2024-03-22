@@ -4,6 +4,7 @@
 
 Sovellus on hirsipuu-peli. Pelissä on yksi pelaaja, joka pyrkii arvaamaan annetun sanan syöttämällä kirjaimia yksi kerrallaan. 
 
+
 ## Toiminnallisuus
 
 ### Aloitus
@@ -17,6 +18,7 @@ Samaa kirjainta ei voi syöttää enempää kuin yhden kerran. Hirttomies kuvass
 ### Pelin päättyminen
 Jos pelaaja saa koko sanan arvattua ennen kuin hirttomies-kuva on valmis, pelaaja voittaa. Jos hirttomies on valmis ennen kuin sana on kokonaan arvattu, pelaaja häviää. 
 Pelaajalla saa siis mennä 6 kirjainta väärin, ennen kuin pelaaja häviää. 
+
 
 ## Jatkokehitysideoita
 - Peliä voisi laajentaa niin, että pelaajalla on aikaraja. 
