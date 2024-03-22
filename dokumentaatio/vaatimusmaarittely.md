@@ -8,7 +8,7 @@ Sovellus on hirsipuu-peli. Pelissä on yksi pelaaja, joka pyrkii arvaamaan annet
 
 ### Aloitus
 
-Pelaaja voi aloittaa pelin. Peli generoi jonkin sanan (50 sanamahdollisuutta), jonka pituus näkyy näytöllä viivoina. 
+Pelaaja voi aloittaa pelin. Peli generoi jonkin sanan, jonka pituus näkyy näytöllä viivoina. Pelissä on 50 sanamahdollisuutta, jotka on valmiiksi syötetty peliin. 
 
 ### Pelaaminen
 Pelaaja syöttää jonkin kirjaimen. Jos kirjain on sanassa, tulee kaikki kyseiset kirjaimet näkyviin. Jos kirjain ei ole sanassa, hirttomies-kuvaan tulee yksi elementti lisää.
