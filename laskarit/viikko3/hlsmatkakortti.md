@@ -1,5 +1,6 @@
 ## HSL-matkakortti, sekvenssikaavio
 
+```hls
 sequenceDiagram
     participant Main
     participant laitehallinto
@@ -12,4 +13,5 @@ sequenceDiagram
     Main->>ratikka6: Lukijalaite()
     Main->>bussi244: Lukijalaite()
     Main->>laitehallinto:lisaa_lataaja(rautatietori)
-    
+
+```
