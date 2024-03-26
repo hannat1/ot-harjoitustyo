@@ -15,7 +15,7 @@
     Yhteismaa -- Ruutu
     Asema -- Ruutu
     Laitos -- Ruutu
-    Katu -- "Nimi" Ruutu
+    Katu "Nimi" -- Ruutu
     Sattumakortti -- Sattuma
     Yhteismaakortti -- Yhteismaa
     Toiminto -- Aloitusruutu
