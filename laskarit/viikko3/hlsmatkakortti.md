@@ -2,17 +2,9 @@
 
 
 ```mermaid
- classDiagram
-    participant Main
-    participant laitehallinto
-    participant rautatietori
-    participant ratikka6
-    participant bussi244
-    
-    Main->>laitehallinto: HKLLaitehallinto()
-    Main->>rautatietori: Lataajalaite()
-    Main->>ratikka6: Lukijalaite()
-    Main->>bussi244: Lukijalaite()
-    Main->>laitehallinto:lisaa_lataaja(rautatietori)
-
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Bob->>Alice: Hi Alice
+    Alice->>Bob: Hi Bob
 ```
