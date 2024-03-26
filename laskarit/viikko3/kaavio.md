@@ -27,6 +27,8 @@
     Toiminto -- Sattumakortti
     Toiminto -- Yhteismaakortti
     Toiminto -- Katu
+    Katu -- "4" Talo
+    Katu -- "1" Hotelli
 
 
 ```
