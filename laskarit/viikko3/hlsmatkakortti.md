@@ -3,8 +3,8 @@
 
 ```mermaid
 sequenceDiagram
-    participant Alice
-    participant Bob
-    Bob->>Alice: Hi Alice
-    Alice->>Bob: Hi Bob
+    participant main
+    participant laitehallinto
+    main->>laitehallinto: Hi Alice
+    laitehallinto->>main: Hi Bob
 ```
