@@ -9,7 +9,6 @@
     Ruutu "1" -- "0..8" Pelinappula
     Pelinappula "1" -- "1" Pelaaja
     Pelaaja "2..8" -- "1" Monopolipeli
-    SattumaYhteismaaRuutu "1" -- "0..n" Kortti
     Aloitusruutu -- Ruutu
     Vankila -- Ruutu
     Sattuma -- Ruutu
