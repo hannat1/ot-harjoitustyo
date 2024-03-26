@@ -1,7 +1,8 @@
 ## HSL-matkakortti, sekvenssikaavio
 
-```hls
-sequenceDiagram
+
+```mermaid
+ classDiagram
     participant Main
     participant laitehallinto
     participant rautatietori
