@@ -1,4 +1,4 @@
-## Monopoli, alustava luokkakaavio
+## Monopoli, luokkakaavio
 
 ```mermaid
  classDiagram
@@ -24,6 +24,7 @@
     Toiminto -- Laitos
     Toiminto -- Sattumakortti
     Toiminto -- Yhteismaakortti
+    Toiminto -- Katu
 
 
 ```
