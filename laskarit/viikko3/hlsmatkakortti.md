@@ -7,4 +7,5 @@ sequenceDiagram
     participant rautatietori
     main->>laitehallinto: Hi Alice
     laitehallinto->>main: Hi Bob
+    participant ratikka6
 ```
