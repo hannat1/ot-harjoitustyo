@@ -15,7 +15,7 @@
     Yhteismaa -- Ruutu
     Asema -- Ruutu
     Laitos -- Ruutu
-    Katu -- Ruutu
+    Katu -- "Nimi" Ruutu
     Sattumakortti -- Sattuma
     Yhteismaakortti -- Yhteismaa
     Toiminto -- Aloitusruutu
@@ -25,7 +25,5 @@
     Toiminto -- Sattumakortti
     Toiminto -- Yhteismaakortti
 
-    KadunRuutu : Omistaja
-    KadunRuutu : Talot
-    KadunRuutu : Hotelli
+
 ```
