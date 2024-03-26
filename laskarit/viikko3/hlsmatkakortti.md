@@ -5,7 +5,16 @@ sequenceDiagram
     participant main
     participant laitehallinto
     participant rautatietori
-    main->>laitehallinto: Hi Alice
-    laitehallinto->>main: Hi Bob
     participant ratikka6
+    participant bussi244
+
+    main->>laitehallinto: HKLLaitehallinto()
+    main->>rautatietori: Lataajalaite()
+    main->>ratikka6: Lukijalaite()
+    main->>bussi244: Lukijalaite()
+
+    main->>laitehallinto: lisaa_lataaja(rautatietori)
+
+
+
 ```
