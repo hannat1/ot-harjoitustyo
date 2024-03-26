@@ -8,7 +8,7 @@ sequenceDiagram
     participant ratikka6
     participant bussi244
     participant lippu_luukku
-    perticipant kallen_kortti
+    participant kallen_kortti
 
     main->>laitehallinto: HKLLaitehallinto()
     main->>rautatietori: Lataajalaite()
