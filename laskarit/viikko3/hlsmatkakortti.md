@@ -15,7 +15,7 @@ sequenceDiagram
     main->>ratikka6: Lukijalaite()
     main->>bussi244: Lukijalaite()
 
-    main->>laitehallinto: lisaa_lataaja(rautatietori)
+    main->>+laitehallinto: lisaa_lataaja(rautatietori)
     main->>laitehallinto: lisaa_lukija(bussi244)
     main->>lippu_luukku: Kioski()
     main->>kallen_kortti: lippu_luukku.osta_matkakortti("Kalle")
