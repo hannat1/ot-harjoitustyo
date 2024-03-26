@@ -11,11 +11,21 @@
     Pelaaja "2..8" -- "1" Monopolipeli
     SattumaYhteismaaRuutu "1" -- "0..n" Kortti
     Aloitusruutu -- Ruutu
-    Vankila : Sijainti
-    SattumaYhteismaaRuutu : Sijainti
-    KadunRuutu : Sijainti
-    AsemaLaitosRuutu : Sijainti
-    KadunRuutu : Nimi
+    Vankila -- Ruutu
+    Sattuma -- Ruutu
+    Yhteismaa -- Ruutu
+    Asema -- Ruutu
+    Laitos -- Ruutu
+    Katu -- Ruutu
+    Sattumakortti -- Sattuma
+    Yhteismaakortti -- Yhteismaa
+    Toiminto -- Aloitusruutu
+    Toiminto -- Vankila
+    Toiminto -- Asema
+    Toiminto -- Laitos
+    Toiminto -- Sattumakortti
+    Toiminto -- Yhteismaakortti
+
     KadunRuutu : Omistaja
     KadunRuutu : Talot
     KadunRuutu : Hotelli
