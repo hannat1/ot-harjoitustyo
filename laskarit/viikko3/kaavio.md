@@ -18,6 +18,7 @@
     Katu "Nimi" -- Ruutu
     Sattumakortti -- Sattuma
     Yhteismaakortti -- Yhteismaa
+    Pelaaja -- Katu
     Toiminto -- Aloitusruutu
     Toiminto -- Vankila
     Toiminto -- Asema
