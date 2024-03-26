@@ -19,6 +19,7 @@
     Sattumakortti -- Sattuma
     Yhteismaakortti -- Yhteismaa
     Pelaaja -- Katu
+    Pelaaja -- Raha
     Toiminto -- Aloitusruutu
     Toiminto -- Vankila
     Toiminto -- Asema
