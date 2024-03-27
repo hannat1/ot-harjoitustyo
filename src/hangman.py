@@ -2,76 +2,76 @@ import random
 
 class Hangman:
     def __init__(self):
-        self.sanat = ["ohjelmistotuotanto", "tietokone", "peli", "puhelin", "ohjelma", "pääsiäinen", "saippuakauppias", "suklaamuna", "keltainen", "hirsipuu", "yliopisto", "ammatti", "vaaleanpunainen"]
+        self.words = ["ohjelmistotuotanto", "tietokone", "peli", "puhelin", "ohjelma", "pääsiäinen", "saippuakauppias", "suklaamuna", "keltainen", "hirsipuu", "yliopisto", "ammatti", "vaaleanpunainen"]
 
-    def generoi_sana(self):
-        self.sana = random.choice(self.sanat)
-        self.sanakirja = {}
-        indeksi = 0 
-        for i in (self.sana):
-            self.sanakirja[indeksi] = i
-            indeksi += 1
+    def generate_word(self):
+        self.word = random.choice(self.words)
+        self.dictionary = {}
+        index = 0 
+        for i in self.word:
+            self.dictionary[index] = i
+            index += 1
 
-    def kirjainten_maara(self):
-        self.kirjaimet = {}
-        for i, t in enumerate(self.sana):
-            self.kirjaimet[t] = i
-        self.uniikit_kirjaimet_maara = len(self.kirjaimet)
+    def amountof_letters(self):
+        self.letters = {}
+        for i, t in enumerate(self.word):
+            self.letters[t] = i
+        self.unique_letters_intheword = len(self.letters)
 
 
-    def aloitus(self):
-        self.pelinsana = []
+    def beginning(self):
+        self.games_word = []
         print("")
-        komento = input("aloita peli! paina enter")
-        self.generoi_sana()
-        for i in self.sana:
-            self.pelinsana.append("_")
-        print("arvaa sana")
-        print("sanan pituus on ", len(self.pelinsana))
-        print("saat tehdä enintään 6 virhettä")
-        print(self.pelinsana)
-        self.kirjainten_maara()
+        comand = input("start the game! press anything")
+        self.generate_word()
+        for i in self.word:
+            self.games_word.append("_")
+        print("guess the word")
+        print("the length of the word is ", len(self.games_word))
+        print("you are allowed 6 mistakes")
+        print(self.games_word)
+        self.amountof_letters()
 
 
     def main(self):
-        self.aloitus()
-        annetutkirjaimet = []
+        self.beginning()
+        given_letters = []
         count = 0
     
     
         while True:
-            komento = input("anna kirjain: ")
-            if komento in annetutkirjaimet:
-                print("annoit kirjaimen jo!")
-                print("kokeile uudelleen")
+            command = input("enter a letter: ")
+            if command in given_letters:
+                print("you gave this letter already!")
+                print("try again")
                 continue
-            if komento not in "abcdefghijklmnopqrstuvwxyzåäö":
-                print("et antanut sopivaa kirjainta")
-                print("kokeile uudelleen")
+            if command not in "abcdefghijklmnopqrstuvwxyzåäö":
+                print("you didn't enter a valid letter")
+                print("try again")
                 continue
-            if komento == "":
-                print("et antanut sopivaa kirjainta")
-                print("kokeile uudelleen")
+            if command == "":
+                print("you didn't enter a valid letter")
+                print("try again")
                 continue
     
-            if komento in self.kirjaimet:
+            if command in self.letters:
                 count += 1
         
-            annetutkirjaimet.append(komento)
+            given_letters.append(command)
 
-            for key, value in self.sanakirja.items():
-                if value == komento:
-                    self.pelinsana[key] = value
+            for key, value in self.dictionary.items():
+                if value == command:
+                    self.games_word[key] = value
 
-            print((len(annetutkirjaimet) - count), "virhettä")
-            print(self.pelinsana)
+            print((len(given_letters) - count), "mistakes")
+            print(self.games_word)
 
-            if count == self.uniikit_kirjaimet_maara:
-                print("VOITIT PELIN")
+            if count == self.unique_letters_intheword:
+                print("YOU WON!")
                 break
-            if (len(annetutkirjaimet) - count) == 6:
-                print("HÄVISIT PELIN")
-                print("sana oli", self.sana)
+            if (len(given_letters) - count) == 6:
+                print("YOU LOST")
+                print("the word was", self.word)
                 break
 
 
